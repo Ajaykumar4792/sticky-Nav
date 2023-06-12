@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+
+/* header css */
+
+header {
+    border-radius: 10px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+/* navbar css */
+
+a {
+    padding: 10px;
+}
+
+
+/* main css */
+
+a:hover {
+    color: white;
+    font-weight: bolder;
+}
+
+
+/* sec1 start here */
+
+#sec1 {
+    text-align: center;
+    background-image: url(../Images/black1.jpg);
+    margin-top: 5%;
+}
+
+
+/* h1 css */
+
+h1,
+p {
+    color: white;
+}
+
+
+/* content css */
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card {
+    background: transparent;
+    border: 2px solid gray;
+    padding: 5px;
+    margin: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 0 5px 5px white;
+    transform: scale(0.9);
+    transition: 0.2s;
+    backdrop-filter: blur(5px);
+}
+
+
+/* sec1 end here */
+
+
+/* sec2 start here */
+
+.content2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#sec2 {
+    background-image: url(../images/black2.jpg);
+    text-align: center;
+}
+
+
+/* sec3 start here */
+
+.content3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#sec3 {
+    background-image: url(../images/black3.jpg);
+    text-align: center;
+}
+
+
+/* sec3 end here */
+
+
+/* sec4 start here */
+
+.content4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#sec4 {
+    background-image: url(../images/black4.jpg);
+    text-align: center;
+}
+
+#sec5 {
+    background-image: url(../images/black5.jpg);
+    text-align: center;
+}
+
+.content5 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin: 10px;
+    padding: 10px;
+}
